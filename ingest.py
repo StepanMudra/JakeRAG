@@ -71,7 +71,7 @@ def ingest():
         if (i + 1) % 10 == 0 or (i + 1) == len(all_chunks):
             print(f"  {i + 1}/{len(all_chunks)}")
 
-    print(f"\n✓ Hotovo — {len(all_chunks)} chunků uloženo do ChromaDB")
+    print(f"\n Finished — {len(all_chunks)} chunks saved to ChromaDB")
 
 
 if __name__ == "__main__":
