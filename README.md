@@ -4,7 +4,7 @@ Jake is a time traveler from 2326. He survived the Machine War. He knows things.
 
 This project gives Jake a long-term memory using RAG (Retrieval-Augmented Generation) — so when you ask him about the future, he actually knows the answer.
 
-Built with Ollama + ChromaDB + Discord.py. Part 4 of the [Building Local AI with Ollama](https://medium.com/@stepan) series.
+Built with Ollama + ChromaDB + Discord.py. Part 4 of the [Building Local AI with Ollama](https://medium.com/@mudrastepan) series.
 
 ---
 
@@ -23,7 +23,7 @@ Your question → ChromaDB (vector search) → relevant context → TimeTraveler
 ## Requirements
 
 - [Ollama](https://ollama.com) installed and running
-- TimeTraveler model from [Part 2](https://medium.com/@stepan) of the series
+- TimeTraveler model from [Part 2](https://medium.com/@mudrastepan) of the series
 - `nomic-embed-text` model pulled
 
 ```bash
